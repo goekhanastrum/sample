@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('Build and Test') {
             steps {
-                bat 'mvnw.cmd clean test'
+                sh './mvnw clean test'
             }
         }
         stage('Code Quality Check') {
             steps {
-                bat 'mvnw.cmd checkstyle:check'
+                sh './mvnw checkstyle:check'
             }
         }
     }

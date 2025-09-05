@@ -1,4 +1,4 @@
-# Demo sample project for iso
+# Demo sample project for ISO - ITZBund ZER - RV SDM
 
 ## Create MySQL container with docker
 ```bash

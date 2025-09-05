@@ -23,6 +23,9 @@ import com.sampleproject.sample.repository.SampleRepository;
 public class SampleController {
 
     @Autowired
+    /**
+     * Repository für Datenzugriff.
+     */
     private SampleRepository repository;
 
     /**
@@ -68,8 +71,9 @@ public class SampleController {
             Sample sample = optionalSample.get();
             sample.setName(sampleDetails.getName());
             return repository.save(sample);
-        } else {
-            return null;
         }
+        return null;
     }
+    
 }
+

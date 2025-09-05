@@ -34,7 +34,7 @@ public class Sample {
      * @param id die neue ID
      */
     public void setId(final Long id) {
-        this.id = id;
+    this.id = id;
     }
 
     /**
@@ -50,6 +50,7 @@ public class Sample {
      * @param name der neue Name
      */
     public void setName(final String name) {
-        this.name = name;
+    this.name = name;
     }
+
 }

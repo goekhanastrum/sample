@@ -10,6 +10,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SampleApplication {
 
 	/**
+	 * Privater Konstruktor.
+	 */
+	private SampleApplication() {
+		// Utility class
+	}
+
+	/**
 	 * Main-Methode.
 	 * @param args Programmargumente
 	 */

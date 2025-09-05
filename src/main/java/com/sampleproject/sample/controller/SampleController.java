@@ -22,10 +22,10 @@ import com.sampleproject.sample.repository.SampleRepository;
 @RequestMapping("/api/samples")
 public class SampleController {
 
-    @Autowired
     /**
      * Repository für Datenzugriff.
      */
+    @Autowired
     private SampleRepository repository;
 
     /**
@@ -74,6 +74,5 @@ public class SampleController {
         }
         return null;
     }
-    
 }
 

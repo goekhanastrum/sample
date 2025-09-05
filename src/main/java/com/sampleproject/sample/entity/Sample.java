@@ -31,10 +31,10 @@ public class Sample {
 
     /**
      * Setzt die ID.
-     * @param id die neue ID
+     * @param newId die neue ID
      */
-    public void setId(final Long id) {
-    this.id = id;
+    public void setId(final Long newId) {
+        this.id = newId;
     }
 
     /**
@@ -47,10 +47,10 @@ public class Sample {
 
     /**
      * Setzt den Namen.
-     * @param name der neue Name
+     * @param newName der neue Name
      */
-    public void setName(final String name) {
-    this.name = name;
+    public void setName(final String newName) {
+        this.name = newName;
     }
 
 }

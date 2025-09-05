@@ -69,7 +69,9 @@ public class SampleController {
         Optional<Sample> optionalSample = repository.findById(id);
         if (optionalSample.isPresent()) {
             Sample sample = optionalSample.get();
-            sample.setName(sampleDetails.getName());
+            sample.setName(
+                sampleDetails.getName()
+            );
             return repository.save(sample);
         }
         return null;

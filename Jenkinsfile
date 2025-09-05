@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout from Repo') {
             steps {
-                git 'https://your-git-repo-url'
+                git 'https://github.com/goekhanastrum/sample.git'
             }
         }
         stage('Build and Test') {

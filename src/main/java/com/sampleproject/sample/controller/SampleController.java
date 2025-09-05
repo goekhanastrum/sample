@@ -65,7 +65,7 @@ public class SampleController {
      * @return das aktualisierte Sample oder null
      */
     @PutMapping("/{id}")
-    public Sample update(@PathVariable final Long id, 
+    public Sample update(@PathVariable final Long id,
         @RequestBody final Sample sampleDetails) {
         Optional<Sample> optionalSample = repository.findById(id);
         if (optionalSample.isPresent()) {
